@@ -107,8 +107,8 @@ function Index() {
           </div>
 
           {/* Portrait Area */}
-          <div className="animate-in relative lg:col-span-5 [animation-delay:200ms]">
-            <div className="relative aspect-[4/5] w-full overflow-hidden border border-border bg-secondary">
+          <div className="animate-in flex items-end justify-center lg:col-span-5 [animation-delay:200ms]">
+            <div className="relative aspect-[4/5] w-full max-w-[280px] overflow-hidden border border-border bg-secondary">
               <img
                 src={portrait.url}
                 alt="Portrait of the developer"
@@ -120,7 +120,6 @@ function Index() {
                 ID: 8829-XQ {"//"} SECTOR 7
               </div>
             </div>
-            <div className="absolute -right-4 -top-4 h-24 w-24 border-r border-t border-accent/30" />
           </div>
         </section>
 
